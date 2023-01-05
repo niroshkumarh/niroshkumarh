@@ -15,7 +15,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
 (function() {
 
   (function($) {
-    var endDate = "December  27, 2014 15:03:25";
+    var endDate = "January  14, 2023 15:03:25";
     $.countdown = function(el, options) {
       var getDateData,
         _this = this;
@@ -34,7 +34,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
       };
       getDateData = function(endDate) {
         var dateData, diff;
-        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2022,12,1));
+        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2023,12,1));
         diff = (endDate - Date.parse(new Date)) / 1000;
         if (diff <= 0) {
           diff = 0;
@@ -109,7 +109,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
       return this.init();
     };
     $.countdown.defaultOptions = {
-      date: "June 7, 2087 15:03:25",
+      date: "January 13, 2023 15:03:25",
       refresh: 1000,
       onEnd: $.noop,
       render: function(date) {
