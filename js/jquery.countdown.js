@@ -34,7 +34,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
       };
       getDateData = function(endDate) {
         var dateData, diff;
-        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2023,12,1));
+        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2022,1,14));
         diff = (endDate - Date.parse(new Date)) / 1000;
         if (diff <= 0) {
           diff = 0;
