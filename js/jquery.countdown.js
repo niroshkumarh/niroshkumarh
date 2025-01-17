@@ -15,7 +15,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
 (function() {
 
   (function($) {
-    var endDate = "January  14, 2023 15:03:25";
+    var endDate = "January  30, 2023 15:03:25";
     $.countdown = function(el, options) {
       var getDateData,
         _this = this;
@@ -45,7 +45,7 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
         }
         dateData = {
           years: 0,
-          days: 13,
+          days: 15,
           hours: 12,
           min: 0,
           sec: 0,
